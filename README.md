@@ -1,0 +1,2 @@
+# Sprint1_AdopcionAPP
+Este es proyecto correspondiente al Sprint 1 de Academia Geek - El proyecto es una app que permita la adopción de perros y gatos, clasificándolos por categoría (perros o gatos), mostrando su foto y muchos de sus detalles principales, además de la interfaz gráfica de una sección de chat que permita la comunicación entre la persona que pone a la mascota en adopción y la persona que desea adoptarlo.
