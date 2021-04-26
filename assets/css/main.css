@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.contenedor {
+  background-color: #fec7d7;
+}
+.principal {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#img_load_1 {
+  animation-name: agrandar;
+  animation-duration: 3s;
+  animation-delay: linear;
+}
+@keyframes agrandar {
+    from {
+      width: 40px;
+    }
+    to {
+        width: 80px;
+    }
+  }
