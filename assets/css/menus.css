@@ -1,0 +1,29 @@
+.pie-pagina {
+  background-color: white;
+}
+.btn-home{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  padding: 2%;
+}
+.btn-opcion{
+    width: 20%;
+    background-color: transparent;
+}
+.img-btn-home{
+  height: 1.5rem; 
+  opacity: 50%;
+  line-height:0;
+}
+.txt-btn-home{
+    line-height: 19.1px;
+    font-size: 14px;
+    margin-left: 1%;
+    font-weight: 400;
+    color: rgb(93, 238, 214);
+    letter-spacing: 0.5%;
+    font-style: normal;
+}

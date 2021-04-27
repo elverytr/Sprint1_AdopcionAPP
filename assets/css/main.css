@@ -3,6 +3,9 @@
   margin: 0px;
   padding: 0px;
 }
+html{
+  font-size: 10px;
+}
 body{
   width: 100%;
 }
@@ -43,12 +46,17 @@ body{
   align-items: center;
   bottom: 0px;
 }
-.btn-siguiente{
-  width: 80%;
+.btn{
+  width: 100px;
   background-color: #0E172C;
   padding: 4%;
   border-radius: 30px;
   color: #FFFFFE;
-  text-align: center;
   text-decoration: none;
+  text-align: center;
+  height: 60%;
+  box-sizing: border-box;
+}
+.btn-siguiente{  
+  width: 80%;
 }
