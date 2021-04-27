@@ -37,7 +37,6 @@ body{
   color: #0E172C;
 }
 .text-parrafo{
-  margin: 3% 3% 0 3%;  
   font-size: 1.2rem;
   color: #535353;
 }
@@ -47,7 +46,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0px;
 }
 .btn{
   width: 100px;
