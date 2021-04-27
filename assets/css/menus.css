@@ -14,14 +14,13 @@
   padding: 2%;
 }
 .btn-seleccionado img{
-  height: 1.5rem; 
   opacity: 50%;
   line-height:0;
 }
 .btn-seleccionado spam{
     line-height: 19.1px;
     font-size: 14px;
-    margin-left: 1%;
+    margin-left: 5%;
     font-weight: 400;
     color: rgb(93, 238, 214);
     letter-spacing: 0.5%;

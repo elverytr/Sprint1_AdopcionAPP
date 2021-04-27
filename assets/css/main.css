@@ -10,19 +10,24 @@ body{
   width: 100%;
 }
 .contenedor {
-  font-family: Nunito;
-  width: 100%;
-  background-color: #fec7d7;  
+  width: 100%;  
   height: 100vh;
+  background-color: #fec7d7;  
+  text-align: center;  
+  font-family: Nunito;
 }
-.principal {
-  width: 100%;
+.principal{
+  width: 100%;  
+  height: 85%;
+  /* padding: 5% 5% 0 5%; */
+  margin-top: 5%;
   text-align: center;
-  display: flex;
+  box-sizing: border-box;
+  display: flex;  
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 90%;
 }
 .presentacion{
   width: 100%;
