@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="REFRESH" content="2;URL=slide_1.html" />
     <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -12,41 +11,24 @@
     <title>Adopta Una Mascota</title>
   </head>
   <body>
-    <style>* {
-      margin: 0px;
-      padding: 0px;
-    }
-    .contenedor {
-      width: 100%;
-      background-color: #fec7d7;  
-      height: 100vh;
-    }
-    .principal {
-      width: 100%;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 90%;
-    }
-      #img_load_1 {
-        animation-name: agrandar;
-        animation-duration: 3s;
-        animation-delay: linear;
-      }
-      @keyframes agrandar {
-        from {
-          width: 40px;
-        }
-        to {
-          width: 80px;
-        }
-      }
-    </style>
     <div class="contenedor" id="loader">
+      <header></header>
       <main class="principal">
-        <img id="img_load_1" src="assets/img/load.svg" />
+        <figure class="presentacion">
+          <img class="img-presentacion" src="assets/img/esperando adopción.svg" />
+        </figure>
+        <div class="parrafo">
+          <div class="titulo-parrafo">Encuentra tu amigo fiel</div>
+          <div class="text-parrafo">
+            Cuando adoptas a una mascota, cosas maravillosas suceden en tu vida.
+            Si estás pensando en tener un nuevo integrante en tu familia; ¡estás
+            en el lugar correcto!
+          </div>
+        </div>
       </main>
+      <footer class="pie-pagina">
+        <a href="slide_2.html" class="btn-siguiente">Siguiente</a>
+      </footer>
     </div>
     <script src="assets/js/main.js"></script>
   </body>

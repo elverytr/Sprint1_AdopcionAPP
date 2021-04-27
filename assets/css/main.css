@@ -1,28 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 * {
   margin: 0px;
   padding: 0px;
 }
+body{
+  width: 100%;
+}
 .contenedor {
-  background-color: #fec7d7;
+  font-family: Nunito;
+  width: 100%;
+  background-color: #fec7d7;  
+  height: 100vh;
 }
 .principal {
   width: 100%;
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90%;
 }
-#img_load_1 {
-  animation-name: agrandar;
-  animation-duration: 3s;
-  animation-delay: linear;
+.presentacion{
+  width: 100%;
+  display: inline-block;
 }
-@keyframes agrandar {
-    from {
-      width: 40px;
-    }
-    to {
-        width: 80px;
-    }
-  }
+.titulo-parrafo{
+  font-size: 1.2rem;
+  font-weight:600;
+  color: #0E172C;
+}
+.text-parrafo{
+  margin-top: 3%;  
+  font-size: 1.2rem;
+  color: #535353;
+}
+.pie-pagina{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+}
+.btn-siguiente{
+  width: 80%;
+  background-color: #0E172C;
+  padding: 4%;
+  border-radius: 30px;
+  color: #FFFFFE;
+  text-align: center;
+  text-decoration: none;
+}
