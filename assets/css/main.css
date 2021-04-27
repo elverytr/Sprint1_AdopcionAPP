@@ -28,13 +28,16 @@ body{
   width: 100%;
   display: inline-block;
 }
+.img-presentacion{
+  width: 80%;
+}
 .titulo-parrafo{
   font-size: 1.2rem;
   font-weight:600;
   color: #0E172C;
 }
 .text-parrafo{
-  margin-top: 3%;  
+  margin: 3% 3% 0 3%;  
   font-size: 1.2rem;
   color: #535353;
 }
