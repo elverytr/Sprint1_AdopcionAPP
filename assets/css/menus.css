@@ -1,7 +1,11 @@
 .pie-pagina {
   background-color: white;
 }
-.btn-home{
+.btn-opcion{
+    width: 20%;
+    background-color: transparent;
+}
+.btn-seleccionado{
   width: 30%;
   display: flex;
   justify-content: center;
@@ -9,16 +13,12 @@
   bottom: 0px;
   padding: 2%;
 }
-.btn-opcion{
-    width: 20%;
-    background-color: transparent;
-}
-.img-btn-home{
+.btn-seleccionado img{
   height: 1.5rem; 
   opacity: 50%;
   line-height:0;
 }
-.txt-btn-home{
+.btn-seleccionado spam{
     line-height: 19.1px;
     font-size: 14px;
     margin-left: 1%;
