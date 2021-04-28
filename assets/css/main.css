@@ -1,49 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 * {
   margin: 0px;
   padding: 0px;
 }
-html{
+html {
   font-size: 10px;
 }
-body{
+body {
   width: 100%;
+  background-color: #fec7d7;
 }
 .contenedor {
-  width: 100%;  
+  width: 100%;
   height: 100vh;
-  background-color: #fec7d7;  
-  text-align: center;  
+  text-align: center;
   font-family: Nunito;
 }
-.principal{
-  width: 100%;  
+.principal {
+  width: 100%;
   height: 90%;
   padding: 10% 5% 0 5%;
   box-sizing: border-box;
-  display: flex;  
+  display: flex;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.presentacion{
+.presentacion {
   width: 100%;
   display: inline-block;
 }
-.img-presentacion{
+.img-presentacion {
   width: 100%;
 }
-.titulo-parrafo{
+.titulo-parrafo {
   font-size: 16px;
-  font-weight:600;
-  color: #0E172C;
+  font-weight: 600;
+  color: #0e172c;
 }
-.text-parrafo{
+.text-parrafo {
   font-size: 1.2rem;
   color: #535353;
 }
-.pie-pagina{
+.pie-pagina {
   width: 100%;
   height: 10%;
   display: flex;
@@ -52,17 +52,17 @@ body{
   position: fixed;
   bottom: 0px;
 }
-.btn{
+.btn {
   width: 100px;
-  background-color: #0E172C;
+  background-color: #0e172c;
   padding: 4%;
   border-radius: 30px;
-  color: #FFFFFE;
+  color: #fffffe;
   text-decoration: none;
   text-align: center;
   height: 60%;
   box-sizing: border-box;
 }
-.btn-siguiente{  
+.btn-siguiente {
   width: 80%;
 }
