@@ -40,9 +40,25 @@
     width: 100%;
     height: max-content;
 }
-.card{
+table{
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+}
+tr{
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+}
+td{
+    width: 50%;
+}
+td:nth-child(odd) #card{
+    float: left;
     width: 156px;
 }
-.card:nth-child(){
-    width: 2px;
+td:nth-child(even) #card{
+    margin-top: 24px;
+    float: right;
+    width: 156px;
 }
