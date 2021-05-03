@@ -8,10 +8,11 @@ html{
 }
 body{
   width: 100%;  
-  background-color: #fec7d7;  
+  background-color: #fec7d7;
 }
 .contenedor {
-  width: 100%;  
+  width: 375px;  
+  /* width: 100%;   */
   height: 100vh;
   text-align: center;  
   font-family: Nunito;
@@ -23,7 +24,6 @@ body{
   box-sizing: border-box;
   display: flex;  
   flex-direction: column;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -43,16 +43,8 @@ body{
   font-size: 1.2rem;
   color: #535353;
 }
-.pie-pagina{
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 0px;
-}
 .btn{
+  display: inline-block;
   width: 100px;
   background-color: #0E172C;
   padding: 4%;
@@ -63,6 +55,6 @@ body{
   height: 60%;
   box-sizing: border-box;
 }
-.btn-siguiente{  
-  width: 80%;
+.btn-siguiente{
+  width: 327px;
 }

@@ -1,0 +1,103 @@
+body{
+    font-size: 20px;
+    padding: 0px;
+}
+.principal{
+    display: inline-block;
+    padding: 0 0 0 0;
+    text-align: left;    
+}
+.btn-regresar{
+    margin: 10px 0 0 10px;
+    position: absolute;
+}
+.container-foto{
+    float: start;
+    bottom: 0px;margin: 0px;
+}
+.foto{    
+    margin: 0;
+    width: 100%;
+}
+.container-info{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+.seccion{
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
+.tit-section{
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+}
+.nombre{
+    font-size: 35px;
+    font-weight: 800;
+    font-style: normal;
+}
+.simbol-genero{
+    margin: 0 0 0 5px;
+    width: 40px;
+}
+.agregar-favoritos{    
+    position:relative;
+    border-radius: 100%;
+    width: 50px;
+    float: right;
+}
+.raza{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.edad{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.simbol-ubicacion{
+    width: 25px;
+    float: left;
+}
+.ubicacion-l-1{
+    width: 40%;
+    float: left;
+}
+.ubicacion-l-2{
+    width: 40%;
+    float: left;
+}
+.sec-personalidad{
+    text-align: center;
+}
+.sec-personalidad img{
+    margin: 0 10px 0 10px;
+}
+.sec-autor{
+    display: flex;
+    align-items: center;
+}
+.img-autor{
+    width: 70px;
+    border: 3px solid #85D1CE;
+    border-radius: 100%;
+    float: left;
+}
+.div-autor{
+    width: 200px;
+    padding: 10px;
+}
+.autor{
+    font-size: 15px;
+}
+.nombre-autor{
+    font-weight: 800;
+    font-size: 19px;    
+}
+.contactar{
+    width: 250px;
+}

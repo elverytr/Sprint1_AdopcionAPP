@@ -18,25 +18,16 @@
         </div>
         <div class="medio">
           <p class="tit-categorias">Categorías de mascotas</p>
-          <img class="img-categoria img-1" src="assets/img/perros.png" />
-          <img class="img-categoria img-2" src="assets/img/gatos.png" />
+          <bottom type="bottom" class="img-categoria" id="mostrar_perros"><img src="assets/img/perros.png" /></bottom>
+          <bottom type="bottom" class="img-categoria" id="mostrar_gatos"><img src="assets/img/gatos.png" /></bottom>
         </div>
         <div class="abajo">
           <div>
-            <table>
-              <tr>
-                <td><img id="card" src="assets/img/card.png"></td>
-                <td><img id="card" src="assets/img/card.png"></td>
-              </tr>
-              <tr>
-                <td><img id="card" src="assets/img/card.png"></td>
-                <td><img id="card" src="assets/img/card.png"></td>
-              </tr>              
-              <tr>
-                <td><img id="card" src="assets/img/card.png"></td>
-                <td><img id="card" src="assets/img/card.png"></td>
-              </tr>
+
+            <!---------------------Aquí se van a mostrar las mascotas--------------------------->
+            <table id="mostrar-mascotas">             
             </table>
+
           </div>
         </div>
       </main>
@@ -58,6 +49,7 @@
         /></a>
       </footer>
     </div>
-    <script src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/home.js">    
+    </script>
   </body>
 </html>
