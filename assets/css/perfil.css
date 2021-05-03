@@ -1,0 +1,33 @@
+.principal{
+    display: inline-block;
+}
+.seccion{
+    display: inline-block;
+    width: 100%;
+}
+.perfil-form{
+    width: 100%;
+}
+.label{
+    font-size: 1.8rem;
+    font-weight: 1000;
+    text-align: left;    
+    display: block;
+    width: 100%;
+    color: #0E172C;
+    margin: 10px 0 5px 0;
+}
+.input{
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 5px;
+    border: 1px solid #535353;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #0E172C;
+}
+
+.btn-guardar{
+    margin-top: 30px;
+    width: 320px;
+}

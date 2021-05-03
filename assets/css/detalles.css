@@ -60,15 +60,15 @@ body{
     box-sizing: border-box;
 }
 .simbol-ubicacion{
-    width: 25px;
+    width: 30px;
     float: left;
 }
 .ubicacion-l-1{
-    width: 40%;
+    width: 80%;
     float: left;
 }
 .ubicacion-l-2{
-    width: 40%;
+    width: 80%;
     float: left;
 }
 .sec-personalidad{

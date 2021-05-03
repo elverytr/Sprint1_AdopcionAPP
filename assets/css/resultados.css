@@ -29,16 +29,16 @@
 }
 .img-categoria{
     width: 160px;
+    height: auto;
+    display: inline-block;
 }
-.img-categoria:nth-child(1n){
-    float: left;
-}
-.img-categoria:nth-child(2n){
-    float: right;
+.img-categoria img:hover{
+    width: 150px;
+    box-sizing: border-box;
 }
 .medio{
     width: 100%;
-    height: 15%;
+    overflow:inherit;
 }
 .abajo{
     width: 100%;
@@ -65,4 +65,12 @@ td:nth-child(even) #card{
 }
 .img-resultado{
     border-radius: 10px;
+}
+.bio{
+    position:sticky;
+}
+.nombre,.raza{
+    width: 100%;
+    display: inline-block;
+    text-align: left;
 }

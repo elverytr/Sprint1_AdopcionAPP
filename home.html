@@ -11,6 +11,12 @@
     <title>Adopta Una Mascota</title>
   </head>
   <body>
+    <script>
+      function guardar(id){
+        localStorage.setItem('detallesDe',id)       
+        window.open('detalles.html','_self')
+      }
+    </script>
     <div class="contenedor">
       <main class="principal">
         <div class="arriba">
@@ -18,8 +24,8 @@
         </div>
         <div class="medio">
           <p class="tit-categorias">Categorías de mascotas</p>
-          <bottom type="bottom" class="img-categoria" id="mostrar_perros"><img src="assets/img/perros.png" /></bottom>
-          <bottom type="bottom" class="img-categoria" id="mostrar_gatos"><img src="assets/img/gatos.png" /></bottom>
+          <img class="img-categoria" id="mostrar_perros" src="assets/img/perros.png" />
+          <img class="img-categoria" id="mostrar_gatos" src="assets/img/gatos.png" />
         </div>
         <div class="abajo">
           <div>
@@ -49,7 +55,6 @@
         /></a>
       </footer>
     </div>
-    <script type="module" src="assets/js/home.js">    
-    </script>
+    <script type="module" src="assets/js/home.js"></script>
   </body>
 </html>

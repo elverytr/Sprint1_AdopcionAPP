@@ -4,16 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />    
+    <link rel="stylesheet" href="assets/css/perfil.css" />
     <link rel="stylesheet" href="assets/css/menus.css" />
     <link rel="icon" href="assets/img/favicon.svg" />
-    <title>Adopta Una Mascota</title>
+    <title>Perfil - Adopción APP</title>
   </head>
   <body>
     <div class="contenedor">
       <main class="principal">
-        
+        <div class="seccion">
+          <h3>Perfil</h3>
+        </div>
+        <div class="seccion">
+          <img src="assets/img/a-favoritos.png">          
+        </div>
+        <div class="seccion">
+          <form class="perfil-form">
+            <label for="nombre" class="label">Nombre</label>
+            <input type="text" class="input" placeholder="Juan" id="nombre">
+
+            <label for="apellido" class="label">Apellido</label>
+            <input type="text" class="input" placeholder="Pérez" id="apellido">
+
+            <label for="correo" class="label">Correo</label>
+            <input type="email" class="input" placeholder="juanperez@gmail.com" id="correo">
+
+            <input type="button" value="Guardar" class="btn btn-guardar">
+          </form>
+        </div>
       </main>
+
+      <!-------------------------------Pie de página-->
       <footer class="pie-pagina">
         <a href="home.html" class="btn btn-opcion"
           ><img class="img-btn-home" src="assets/img/icon-home.png" /><spam
@@ -32,6 +54,6 @@
         /><spam class="">Perfil</spam></a>
       </footer>
     </div>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/perfil.js"></script>
   </body>
 </html>
