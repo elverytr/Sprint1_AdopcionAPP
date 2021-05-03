@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/main.css" />    
+    <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/perfil.css" />
     <link rel="stylesheet" href="assets/css/menus.css" />
     <link rel="icon" href="assets/img/favicon.svg" />
@@ -16,21 +16,35 @@
         <div class="seccion">
           <h3>Perfil</h3>
         </div>
-        <div class="seccion">
-          <img src="assets/img/a-favoritos.png">          
+        <div class="seccion sec-arriba">
+          <div class="bio">
+            <img class="perfil-foto" src="assets/img/a-favoritos.png" />
+            <p class="nombre">Juan Pérez</p>
+          </div>
         </div>
-        <div class="seccion">
+        <div class="seccion sec-medio">
           <form class="perfil-form">
+            <h3 class="tit-form">Editar Cuenta</h3>
             <label for="nombre" class="label">Nombre</label>
-            <input type="text" class="input" placeholder="Juan" id="nombre">
+            <input type="text" class="input" placeholder="Juan" id="nombre" />
 
             <label for="apellido" class="label">Apellido</label>
-            <input type="text" class="input" placeholder="Pérez" id="apellido">
+            <input
+              type="text"
+              class="input"
+              placeholder="Pérez"
+              id="apellido"
+            />
 
             <label for="correo" class="label">Correo</label>
-            <input type="email" class="input" placeholder="juanperez@gmail.com" id="correo">
+            <input
+              type="email"
+              class="input"
+              placeholder="juanperez@gmail.com"
+              id="correo"
+            />
 
-            <input type="button" value="Guardar" class="btn btn-guardar">
+            <input type="button" value="Guardar" class="btn btn-guardar" />
           </form>
         </div>
       </main>
@@ -50,8 +64,11 @@
           ><img class="" src="assets/img/icon-corazon.png"
         /></a>
         <a href="perfil.html" class="btn btn-seleccionado"
-          ><img class="" src="assets/img/perfil-seleccionado.png"
-        /><spam class="">Perfil</spam></a>
+          ><img class="" src="assets/img/perfil-seleccionado.png" /><spam
+            class=""
+            >Perfil</spam
+          ></a
+        >
       </footer>
     </div>
     <script src="assets/js/perfil.js"></script>
