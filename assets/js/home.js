@@ -1,8 +1,5 @@
 import mascotas from './info.js';
-
-//Detecta cuando se pulsa el botón de mostrar gatos o el de mostrar perros respectivamente
-const btn_mostrar_perros = document.querySelector('#mostrar_perros');
-const btn_mostrar_gatos = document.querySelector('#mostrar_gatos');
+import persona from './info-perfil.js';
 
 //Selecciona la tabla dentro de la cual se van a mostrar las mascotas en el html
 const mostrar_mascotas = document.querySelector("#mostrar-mascotas");
@@ -10,6 +7,10 @@ const mostrar_mascotas = document.querySelector("#mostrar-mascotas");
 //Filtra las mascotas por tipo perro y gato y las guarda en un arreglo nuevo por separado
 const perros = mascotas.mascota.filter(x => x.categoria == 'Perro');
 const gatos = mascotas.mascota.filter(x => x.categoria == 'Gato');
+
+//Detecta cuando se pulsa el botón de mostrar gatos o el de mostrar perros respectivamente
+const btn_mostrar_perros = document.querySelector('#mostrar_perros');
+const btn_mostrar_gatos = document.querySelector('#mostrar_gatos');
 
 //Llama a la funcion que muestra los perros o la que muestra los gatos dependiendo de que botón se pulsó
 btn_mostrar_perros.onclick = mostrar_perros;
